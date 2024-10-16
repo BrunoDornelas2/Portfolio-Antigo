@@ -97,6 +97,15 @@ body::-webkit-scrollbar:vertical{
    0 0 0.30em var(--cor1);
    font-family: 'Argentum', sans-serif;
 }
+/*foto*/
+#ident0{
+  width: 300px;
+  border-radius: 50%; 
+  float: left; 
+  border:2px solid var(--cor1);
+  box-shadow: 0 0 0.20em #FFF7, 0 0 0.50em var(--cor1); 
+  margin: 0px 0px 0px 80px;
+}
 /*Título em neon*/
 .titulo{
   font-family: 'Argentum', sans-serif;
@@ -418,4 +427,7 @@ ul::-webkit-scrollbar-track {
 ul::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, transparent, var(--cor2), transparent);
   border-radius: 6px;
+}
+#sobreMim{
+  font-size: 1.5rem;
 }
