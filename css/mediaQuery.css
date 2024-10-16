@@ -8,6 +8,12 @@
     width: 200px;
     margin-right: 80px;
    }
+   #cursor{
+    display: none;
+   }
+   .mensagem{
+    display: none;
+   }
    .titulo{
     margin: 5px 5px 5px 0px;
     font-size: 2rem;
@@ -48,15 +54,20 @@
     font-size: 0.8rem;
   }
   .cubo{
-    margin-left: 30px;
+    width: 30%;
   }
   .caixas ul{
-    width: 100px;
+    width: 30%;
+    box-shadow: 0 0 10px 0 var(--cor1);
   }
   .caixas ul li{
-    font-size: 1rem;
+    font-size: 0.7rem;
+    padding: 10px;
   }
   .barras{
     text-align: center;
+  }
+  .caixas{
+    width: 30%;
   }
 }
