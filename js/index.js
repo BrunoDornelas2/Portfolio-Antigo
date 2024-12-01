@@ -4,7 +4,7 @@ addEventListener('click', function(event){
     if (localProibido.includes(event.target.tagName.toLowerCase())|| event.target.closest('section')){
         return;
     }
-    const words = ['Developer', 'Front-End', 'Biologist', 'Python', 'JavaScript', 'Arduino', 'LAN', 'Computer Maintenance', 'Software Installer'];
+    const words = ['Developer', 'Front-End', 'Biologist', 'Python', 'JavaScript', 'Arduino', 'LAN','Figma', 'Computer Maintenance', 'Software Installer'];
     const randomWord = words[Math.floor(Math.random()*words.length)];
     const palavra = document.createElement('div');
     palavra.className = 'text';
